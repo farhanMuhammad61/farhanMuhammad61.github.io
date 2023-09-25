@@ -1,0 +1,3 @@
+nama: Muhammad farhan
+NPM: 22105110013
+prodi: teknik informatika D3
