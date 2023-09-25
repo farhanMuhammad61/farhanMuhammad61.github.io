@@ -1,3 +1,4 @@
 nama: Muhammad farhan
 NPM: 22105110013
-prodi: teknik informatika D3
+program studi: teknik informatika D3
+fakultas:
