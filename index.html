@@ -3,35 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portofolio Saya</title>
+    <title>Profil Saya</title>
+    
+    <!-- Load Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Portofolio Saya</h1>
-        <p>Selamat datang di portofolio saya.</p>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Profil Saya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang Saya</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Selamat Datang di Profil Saya</h1>
+            <p>Saya adalah seorang pengembang web.</p>
+        </div>
     </header>
-    
-    <section id="about">
-        <h2>Tentang Saya</h2>
-        <p>Saya adalah seorang pengembang web yang berpengalaman.</p>
-    </section>
-    
-    <section id="portfolio">
-        <h2>Portofolio</h2>
-        <div class="project">
-            <h3>Proyek 1</h3>
-            <p>Deskripsi singkat proyek 1.</p>
-        </div>
-        <div class="project">
-            <h3>Proyek 2</h3>
-            <p>Deskripsi singkat proyek 2.</p>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang pengembang web yang berpengalaman.</p>
         </div>
     </section>
-    
-    <section id="contact">
-        <h2>Kontak</h2>
-        <p>Silakan hubungi saya melalui email: <a href="mailto:contoh@email.com">contoh@email.com</a></p>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-light py-5">
+        <div class="container">
+            <h2>Portofolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Proyek 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyek 1</h5>
+                            <p class="card-text">Deskripsi singkat proyek 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Proyek 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyek 2</h5>
+                            <p class="card-text">Deskripsi singkat proyek 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Proyek 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyek 3</h5>
+                            <p class="card-text">Deskripsi singkat proyek 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2>Kontak</h2>
+            <p>Silakan hubungi saya melalui email: <a href="mailto:contoh@email.com">contoh@email.com</a></p>
+        </div>
+    </section>
+
+    <!-- Load Bootstrap JS (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
